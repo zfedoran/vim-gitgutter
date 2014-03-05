@@ -301,7 +301,7 @@ endfunction
 " The format is [ added, modified, removed ], where each value represents
 " the number of lines added/modified/removed respectively.
 function! GitGutterGetHunkSummary()
-  return hunk#summary()
+  "return hunk#summary()
 endfunction
 
 " }}}
